@@ -1,4 +1,4 @@
-package com.github.lipinskipawel;
+package com.github.lipinskipawel.parser;
 
 import com.fasterxml.jackson.core.TreeNode;
 import com.fasterxml.jackson.databind.DeserializationContext;

@@ -1,10 +1,10 @@
-package com.github.lipinskipawel;
+package com.github.lipinskipawel.parser;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
-import com.github.lipinskipawel.deserializer.NestedDeserializer;
-import com.github.lipinskipawel.objects.NestedObject;
-import com.github.lipinskipawel.objects.NestedObject.Inner;
+import com.github.lipinskipawel.parser.deserializer.NestedDeserializer;
+import com.github.lipinskipawel.parser.objects.NestedObject;
+import com.github.lipinskipawel.parser.objects.NestedObject.Inner;
 import org.assertj.core.api.WithAssertions;
 import org.junit.jupiter.api.Test;
 

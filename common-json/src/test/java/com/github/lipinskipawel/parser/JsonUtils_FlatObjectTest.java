@@ -1,11 +1,11 @@
-package com.github.lipinskipawel;
+package com.github.lipinskipawel.parser;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
-import com.github.lipinskipawel.deserializer.FlatDeserializer;
-import com.github.lipinskipawel.objects.NestedObject.Inner;
-import com.github.lipinskipawel.objects.FlatObject;
+import com.github.lipinskipawel.parser.deserializer.FlatDeserializer;
+import com.github.lipinskipawel.parser.objects.FlatObject;
+import com.github.lipinskipawel.parser.objects.NestedObject.Inner;
 import org.assertj.core.api.WithAssertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.github.lipinskipawel.objects;
+package com.github.lipinskipawel.parser.objects;
 
 import java.util.Optional;
 

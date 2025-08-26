@@ -1,17 +1,17 @@
-package com.github.lipinskipawel.deserializer;
+package com.github.lipinskipawel.parser.deserializer;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.github.lipinskipawel.objects.FlatObject;
+import com.github.lipinskipawel.parser.objects.FlatObject;
 
 import java.io.IOException;
 
-import static com.github.lipinskipawel.JsonUtils.parseListNode;
-import static com.github.lipinskipawel.JsonUtils.parseNode;
-import static com.github.lipinskipawel.JsonUtils.parseOptionalNode;
-import static com.github.lipinskipawel.JsonUtils.parseSetNode;
+import static com.github.lipinskipawel.parser.JsonUtils.parseListNode;
+import static com.github.lipinskipawel.parser.JsonUtils.parseNode;
+import static com.github.lipinskipawel.parser.JsonUtils.parseOptionalNode;
+import static com.github.lipinskipawel.parser.JsonUtils.parseSetNode;
 
 public final class FlatDeserializer extends JsonDeserializer<FlatObject> {
 

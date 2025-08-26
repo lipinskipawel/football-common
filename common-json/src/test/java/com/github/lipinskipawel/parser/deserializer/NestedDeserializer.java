@@ -1,16 +1,16 @@
-package com.github.lipinskipawel.deserializer;
+package com.github.lipinskipawel.parser.deserializer;
 
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.DeserializationContext;
 import com.fasterxml.jackson.databind.JsonDeserializer;
 import com.fasterxml.jackson.databind.JsonNode;
-import com.github.lipinskipawel.objects.NestedObject;
-import com.github.lipinskipawel.objects.NestedObject.Inner;
+import com.github.lipinskipawel.parser.objects.NestedObject;
+import com.github.lipinskipawel.parser.objects.NestedObject.Inner;
 
 import java.io.IOException;
 
-import static com.github.lipinskipawel.JsonUtils.parseNode;
-import static com.github.lipinskipawel.JsonUtils.parseOptionalNode;
+import static com.github.lipinskipawel.parser.JsonUtils.parseNode;
+import static com.github.lipinskipawel.parser.JsonUtils.parseOptionalNode;
 
 public final class NestedDeserializer extends JsonDeserializer<NestedObject> {
 
