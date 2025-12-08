@@ -4,4 +4,7 @@ plugins {
 }
 
 rootProject.name = "football-common"
-include("common-json")
+include(
+    "common-db",
+    "common-json"
+)
